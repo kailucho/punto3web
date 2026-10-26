@@ -1,0 +1,18 @@
+# Configuración local de las plataformas
+.openai/
+.vercel/
+
+# Credenciales y configuración privada
+.env
+.env.*
+!.env.example
+
+# Dependencias, archivos temporales y paquetes de publicación
+node_modules/
+outputs/
+*.log
+*.tar.gz
+.DS_Store
+Thumbs.db
+
+# dist/ contiene el sitio listo para publicar y debe subirse a GitHub.
