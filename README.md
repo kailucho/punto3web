@@ -23,7 +23,7 @@ La carpeta `dist/` contiene el sitio completo y debe incluirse en el repositorio
 2. Abre PowerShell en la carpeta del proyecto y ejecuta:
 
 ```powershell
-cd D:\KAI\proyectos\punto3-web
+cd D:\KAI\proyectos\negocio\punto3-web
 git add .
 git commit -m "Preparar sitio de Punto 3 para GitHub y Vercel"
 git branch -M main
